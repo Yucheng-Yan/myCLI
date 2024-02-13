@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=64.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "myCLI"
+version = "0.0.1"
+description = "my command line interface for studying argparse package."
+readme = "README.md"
+authors = [{ name = "Yucheng Yan", email = "yyan7935@uni.sydney.edu.au" }]
+
+[project.scripts]
+myCLI = "myCLI.__main__:main"
